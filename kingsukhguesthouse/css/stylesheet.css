@@ -1,0 +1,116 @@
+body {
+ margin: 0;
+ font-family: Arial, sans-serif;
+}
+
+.booking {
+ position: absolute;
+ top: 660px;
+ width: 100%;
+}
+
+.bg-color {
+ background-color: #bc1c5c;
+}
+
+.bg1-color {
+ background-color: #e82574;
+}
+
+.form-floating .form-control:focus+label,
+.form-floating .form-control:not(:placeholder-shown)+label {
+ color: #e82574;
+}
+
+.name {
+ font-size: 1.5rem;
+ font-weight: bold;
+}
+
+@media (max-width:1100px) {
+ .contactform1 {
+   padding-left: 200px;
+ }
+
+ .btn {
+   width: 120px;
+ }
+
+ .nav-item:last-child {
+   display: none;
+ }
+}
+
+.text-color,
+.bg1-color {
+ color: #e82574;
+}
+
+@media (min-width:1100px) {
+
+ .contactinfo1,
+ .contactform1 {
+   border-radius: 20px;
+ }
+
+ .form-control,
+ label {
+   margin-left: 20%;
+ }
+
+ .form-border {
+   width: 75%;
+ }
+
+ .navbar {
+   background-color: transparent !important;
+ }
+
+ .livcard {
+   margin-left: 10%;
+ }
+
+ .service1 {
+   margin-left: 50%;
+ }
+}
+
+.imgsize {
+ width: 30x;
+ height: 30px;
+}
+
+.mediaicons {
+ position: relative;
+ top: 40%;
+}
+
+.nav-link {
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ margin-top: 20px;
+}
+
+.head {
+ background: url('./assets/ayodhya.webp') no-repeat center center/cover;
+ height: 100vh;
+}
+
+.text-highlight {
+ font-weight: bold;
+}
+
+.text-heart {
+ color: #f472b6;
+}
+
+.text-lavender {
+ color: rgba(102, 16, 242, 0.60);
+}
+
+.livingroom1,
+.livingroom2 {
+ position: absolute;
+ bottom: 0;
+}
